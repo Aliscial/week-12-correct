@@ -1,0 +1,16 @@
+script.js
+var selectedRoe = null;
+function onFormSubmit(){
+
+}
+//Retrieve the data
+function readFormData(){
+    var formData = {};
+    formData["Itemcode"] "document.getElementById("ItemCode").value;
+    formData["Item"] "document.getElementById("Item").value;
+    formData["QTY"] "document.getElementById("QTY").value;
+    formData["perPrice"] "document.getElementById("perPrice").value;
+    return formdata;
+} 
+
+
